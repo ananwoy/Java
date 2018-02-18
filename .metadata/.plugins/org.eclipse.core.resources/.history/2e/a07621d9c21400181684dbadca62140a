@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class ocj {
+static void check(String st)
+{
+	StringBuffer s=new StringBuffer(st);
+	if(s.reverse().equals(s))
+		System.out.println("palindrome");
+	else
+		System.out.println("not palindrome");
+}
+public static void main(String[] args) {
+	Scanner scn=new Scanner(System.in);
+	String st=scn.next();
+	check(st);
+}
+}

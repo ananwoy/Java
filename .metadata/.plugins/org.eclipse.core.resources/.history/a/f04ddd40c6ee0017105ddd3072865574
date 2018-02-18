@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class RemoveDupEle {
+	static String remove(String st) {
+		String s = "";
+		char ch[] = st.toCharArray();
+		int n=ch.length;
+		for (int i = 0; i < n; i++) {
+			int count = 0;
+			for(int j = i + 1;j<n;j++)
+			{
+			if (j<ch.length&&ch[i] == ch[j]) {
+				count++;
+				ch[j]=ch[n-1];
+				j--;
+			}
+			}
+			if (count == 0) {
+				s = s + ch[i];
+			}
+		}
+		return s;
+	}
+
+	public static void main(String[] args) {
+		Scanner scn = new Scanner(System.in);
+		System.out.println("Enter the String: ");
+		String s = scn.next();
+		String st = remove(s);
+		System.out.println(st);
+	}
+}

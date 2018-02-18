@@ -1,0 +1,11 @@
+
+public class Passenger {
+void takeTicket()
+{
+	Conductor c=new Conductor();
+	Money m=new Money();
+	Ticket t=c.gvTicket(m);
+	System.out.println("passenger got ticket");
+	
+}
+}

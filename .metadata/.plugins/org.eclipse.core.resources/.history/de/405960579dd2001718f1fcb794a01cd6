@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Prime
+{
+static boolean check(int x)
+{
+	int i;
+	for(i=2;i<=x/2;i++)
+		return x%i==0;
+	return false;
+}
+public static void main(String[] args) {
+Scanner s=new Scanner(System.in);
+int x=s.nextInt();
+boolean n=check(x);
+if(n)
+	System.out.println("not prime");
+else
+	System.out.println("prime");
+}
+}
