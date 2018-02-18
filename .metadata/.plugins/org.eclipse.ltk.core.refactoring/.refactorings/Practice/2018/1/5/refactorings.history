@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;Mixer&apos; to &apos;cap1&apos;&#x0D;&#x0A;- Original project: &apos;Practice&apos;&#x0D;&#x0A;- Original element: &apos;Mixer&apos;&#x0D;&#x0A;- Renamed element: &apos;cap1&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Mixer&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{cap1.java[Mixer" matchStrategy="1" name="cap1" qualified="false" references="true" similarDeclarations="false" stamp="1517124693206" textual="false" version="1.0"/>
-</session>
